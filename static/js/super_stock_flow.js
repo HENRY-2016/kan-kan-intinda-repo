@@ -7,8 +7,8 @@
     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
 
-// var super_sf_url = "http://127.0.0.1:6000/";
-var super_sf_url = "http://172.105.158.108:6000/";
+// var super_sf_url = "http://127.0.0.1:6060/";
+var super_sf_url = "http://172.105.158.108:6060/";
 
 var seconds = 1000;
 var loader_seconds = 3000;

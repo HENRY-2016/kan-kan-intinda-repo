@@ -1,8 +1,8 @@
 
 
 
-// var planiseal_liquid_url = "http://127.0.0.1:6000/";
-var planiseal_liquid_url = "http://172.105.158.108:6000/";
+// var planiseal_liquid_url = "http://127.0.0.1:6060/";
+var planiseal_liquid_url = "http://172.105.158.108:6060/";
 
 
 var seconds = 1000;

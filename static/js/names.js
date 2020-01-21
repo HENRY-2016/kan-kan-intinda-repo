@@ -1,8 +1,8 @@
 
 
 
-// var all_names_url = "http://127.0.0.1:6000/";
-var all_names_url =  "http://172.105.158.108:6000/"
+// var all_names_url = "http://127.0.0.1:6060/";
+var all_names_url =  "http://172.105.158.108:6060/"
 
 
 function check_sadolin_staffs_status (html_id)
