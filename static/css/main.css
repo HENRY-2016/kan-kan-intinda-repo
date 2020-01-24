@@ -35,6 +35,23 @@
         background-image: url("../imgs/body-bg.png");
         
     }
+.agency-show-btn
+{
+    
+    width: 100%;
+    background-image: url("../imgs/close-btn.png");
+    height:35px;
+    border-radius:50px;
+}
+.view-btns-children
+{
+    background-color:black;
+    border:none;
+    width:45%;
+    height:45px;
+    border-radius:10px;
+}
+
 .home-btn
     {
         color:blue;
