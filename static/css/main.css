@@ -1,0 +1,107 @@
+
+
+/* Vars */
+.font-styls-links
+    {color: blue; padding:5px 5px; font-size: 18px; font-family:Times New Roman Times, serif;}
+
+.name-labels
+{color: white; padding:5px 5px; font-size: 18px; font-family:Times New Roman Times, serif;}
+
+
+
+
+
+/* ===================  index page ======================== */
+.index-imgs
+{
+    width: 50%;
+    height: 50%;
+}
+
+/* ==================== NAVIGETION LINKS CSS ============================== */
+
+.navi-links-btn
+{
+    background-color: #808080;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family:Times New Roman Times, serif;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+}
+
+
+.dropdown-content-links
+{
+    background-color: #D3D3D3;
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+
+}
+
+
+#links-div  {background-color: #D3D3D3;}
+
+.navi-links-btns  {margin-left: 20px; text-decoration: none; display: block;}
+.navi-links-title-label 
+{
+    margin-left: 35px;
+    color: black; padding:5px 5px; font-size: 18px; font-family:Times New Roman Times, serif;
+}
+.navi-links-btns:hover {color:blue; border-bottom : 5px solid blue; }
+#NaviDivHeader  {background-color: #A9A9A9;  height:50px;}
+#NaviDivFooter { width: 100%;   background-color: #A9A9A9;  height:50px;}
+
+/* ==================== ALERT LINKS CSS ============================== */
+
+#alert-box-display-area{
+    display: none;
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    width: 100%;
+    z-index: 10;
+    /* border-radius: 50px; */
+}
+#alert-box{
+    display: none;
+    position: fixed;
+    /* background: beige; */
+    /* border-radius:50px;  */
+    width:550px;
+    z-index: 10;
+}
+#alert-box > div{margin:8px; }
+#alert-box > div > #alert-box-header
+{ 
+    background:#6495ED;  font-size:19px; padding:10px; color:white; 
+    border-top-left-radius: 30px; border-top-right-radius: 30px; align-content: center;
+    font-family:Times New Roman Times, serif; font-weight: bold; font-style: italic;
+}
+.ok-alert-btn
+{
+    background:  #F5F5F5;
+    border-radius: 30px;
+    width: 50%; height: 35px; color: #0000CD; font-size: 18px;
+    font-family:Times New Roman Times, serif; font-weight: bold; font-style: italic;
+}
+#alert-box > div > #alert-box-body
+{ 
+    background:#E6E6FA; padding:20px; 
+    height: 75px; color:#0000CD ; font-size: 18px;
+    font-family:Times New Roman Times, serif; font-weight: bold; font-style: italic;
+}
+#alert-box > div > #alert-box-footer
+{ 
+    background:#6495ED; 
+    padding:10px; 
+    text-align:center; 
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 45px; 
+}
