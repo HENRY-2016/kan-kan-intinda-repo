@@ -1,61 +1,48 @@
 
 
-/* Vars */
-.font-styls-links
-    {color: blue; padding:5px 5px; font-size: 18px; font-family:Times New Roman Times, serif;}
-
-.name-labels
-{color: white; padding:5px 5px; font-size: 18px; font-family:Times New Roman Times, serif;}
-
-
-
-
-
-/* ===================  index page ======================== */
-.index-imgs
+.main_body { background-color:#B0A27B}
+.register-btn {background-color:#B8860B;}
+.logout-login-regester-btns-fontstyle
 {
-    width: 50%;
-    height: 50%;
-}
-
-/* ==================== NAVIGETION LINKS CSS ============================== */
-
-.navi-links-btn
-{
-    background-color: #808080;
-    color: white;
-    padding: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
+
+    color: white;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    border:none;
+    width:50%;
+    height:40px;
+    border-radius:18px;
+}
+/*=======================================================================================================*/
+                                            /*
+                                               +++++++++++++++++++++++++ ++
+                                               +                          +
+                                               +   NAVIGETION            +
+                                               +                          +
+                                               ++++++++++++++++++++++++++++
+                                               */
+
+
+.navigetion-icone-flower
+{
+
     font-family:Times New Roman Times, serif;
-    border: none;
-    cursor: pointer;
-    height: 50px;
+    
+    font-size:40px;
+    cursor:pointer;
+    margin-left: 8px;
+    color:white;
 }
 
+/* #NaviDivHeader
+    {
+        background-color: #a21369;
+        height:50px;
+    } */
 
-.dropdown-content-links
-{
-    background-color: #D3D3D3;
-    width: 100%;
-    z-index: 5;
-    position: absolute;
-
-}
-
-
-#links-div  {background-color: #D3D3D3;}
-
-.navi-links-btns  {margin-left: 20px; text-decoration: none; display: block;}
-.navi-links-title-label 
-{
-    margin-left: 35px;
-    color: black; padding:5px 5px; font-size: 18px; font-family:Times New Roman Times, serif;
-}
-.navi-links-btns:hover {color:blue; border-bottom : 5px solid blue; }
-#NaviDivHeader  {background-color: #A9A9A9;  height:50px;}
-#NaviDivFooter { width: 100%;   background-color: #A9A9A9;  height:50px;}
-
-/* ==================== ALERT LINKS CSS ============================== */
 
 #alert-box-display-area{
     display: none;
@@ -97,11 +84,12 @@
     font-family:Times New Roman Times, serif; font-weight: bold; font-style: italic;
 }
 #alert-box > div > #alert-box-footer
-{ 
-    background:#6495ED; 
-    padding:10px; 
-    text-align:center; 
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    height: 45px; 
-}
+    { 
+        background:#6495ED; 
+        padding:10px; 
+        text-align:center; 
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        height: 45px; 
+    }
+    

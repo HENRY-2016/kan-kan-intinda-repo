@@ -1,52 +1,41 @@
 
-<!DOCTYPE html>
+
 <html>
 <head>
-    <script src="static/js/navigetion.js" ></script>
-    <link rel="stylesheet" type="text/css" href="static/css/main.css">
-    <link rel="stylesheet" type="text/css" href="static/css/w3.css">
-    <meta charset="utf-8">
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<title>Bake4me | All </title>
+
+<script src="static/js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="static/css/main.css">
+<script>
+	function LoadApplication ()
+	{
+	LoadBigtimeUsingGitHub ();
+	
+	}
+
+</script>
 </head>
-<body>
 
-<div id="NaviDivHeader"> 
-    <button onclick="ShowNavigetionLinks()" class="navi-links-btn">Charts</button>
-    <label class="name-labels"> Kankan Builders Ponit Ltd </label>
-    <div id="links-div" class="w3-dropdown-content dropdown-content-links ">
-        <button onclick="LoadDashboard()" class="navi-links-btns font-styls-links w3-button" ><label class="font-styls-links">Dashboard</label></button><br>
-        <button onclick="LoadPremiumColourChart()" class="navi-links-btns font-styls-links w3-button" ><label class="font-styls-links">Premium</label></button><br>
+<body class="main_body"  ononline="LoadApplication ()" >
+<div id="main-header">
+	
+	<center>
+		<br><br>
+		<!-- <div id="offline-label-div"></div> -->
 
-        <label class="navi-links-title-label font-styls-links">Inspired</label><br>
-        <button class="navi-links-btns font-styls-links w3-button" ><label class="navi-links-label font-styls-links">Off Whites</label></button><br>
-        <button class="navi-links-btns font-styls-links w3-button" ><label class="navi-links-label font-styls-links">General Wall</label></button><br>
-        <button class="navi-links-btns font-styls-links w3-button" ><label class="navi-links-label font-styls-links">Feature Wall</label></button><br>
-        <button class="navi-links-btns font-styls-links w3-button" ><label class="navi-links-label font-styls-links">Exterior Wall</label></button><br>
-        <label onclick="LoadDeveloper ()" class="navi-links-title-label font-styls-links">Developer</label><br><br>
-    </div>
-</div>
+		<br><button onclick="LoadClientUsingLinode ()" class="register-btn logout-login-regester-btns-fontstyle">Client</button><br>
+		<br><button onclick="LoadStaffUsingLinode ()" class="register-btn logout-login-regester-btns-fontstyle">Staff</button>
+		
+		<!-- <br><button onclick="LoadClientUsingGitHub ()" class="register-btn logout-login-regester-btns-fontstyle">Client</button><br>
+		<br><button onclick="LoadStaffUsingGitHub ()" class="register-btn logout-login-regester-btns-fontstyle">Staff</button>
+		 -->
+		<!-- <br><button onclick="LoadSchoolUsingGitHub ()" class="register-btn logout-login-regester-btns-fontstyle">School</button>
 
-<div id="alert-box-display-area"></div>
-<div id="alert-box">
-	<div>
-		<div id="alert-box-header"></div>
-		<div id="alert-box-body"></div>
-		<div id="alert-box-footer"></div>
-	</div>
-</div>
+		<br><button  class="register-btn logout-login-regester-btns-fontstyle">Localhost</button>
+		
+		-->
+	</center>
 
-<!-- <button onclick="ShowAlertBox ()">show</button> -->
-
-<center>
-    <img src="static/imgs/log2.jpg"  alt="kankan builders point" class="index-imgs"><br>
-    <!-- Digital Colour Chart<br> -->
-    <img src="static/imgs/plascon.png" alt="kansai plascon uganda" class="index-imgs" ><br><br>
-</center>
-
-
-<div id="NaviDivFooter">
-    <center>
-        <label class="name-labels"> Powered by <br> Kansai Plascon Uganda <br><br>....</label>
-    </center>
-</div>
 </body>
 </html>
